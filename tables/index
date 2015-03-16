@@ -1,0 +1,358 @@
+ar     | #+locale:ar
+       | include ar-ar-g1.utb
+       | include braille-patterns.cti
+
+as     | #+locale:as
+       | include spaces.ctb
+       | include as-in-g1.utb
+       | include braille-patterns.cti
+
+awa    | #+locale:awa
+       | include spaces.ctb
+       | include aw-in-g1.utb
+       | include braille-patterns.cti
+
+bg     | #+locale:bg
+       | include bg.ctb
+       | include braille-patterns.cti
+
+bh     | #+locale:bh
+       | include spaces.ctb
+       | include bh.ctb
+       | include braille-patterns.cti
+
+bn     | #+locale:bn
+       | include spaces.ctb
+       | include be-in-g1.utb
+       | include braille-patterns.cti
+
+bo     | #+locale:bo
+       | include bo.ctb
+       | include braille-patterns.cti
+
+bra    | #+locale:bra
+       | include spaces.ctb
+       | include br-in-g1.utb
+       | include braille-patterns.cti
+
+ca     | #+locale:ca
+       | include ca-g1.ctb
+       | include braille-patterns.cti
+
+ckb    | #+locale:ckb
+       | include ckb-g1.ctb
+       | include braille-patterns.cti
+
+cs     | #+locale:cs
+       | include cs-g1.ctb
+       | include hyph_cs_CZ.dic
+       | include braille-patterns.cti
+
+cy     | #+locale:cy
+       | include cy-cy-g2.ctb
+       | include braille-patterns.cti
+
+da     | #+locale:da
+       | include da-dk-g26.ctb
+       | include braille-patterns.cti
+
+de     | #+locale:de
+       | include de-de-g2.ctb
+       | include hyph_de_DE.dic
+       | include braille-patterns.cti
+
+de_CH  | #+locale:de_CH
+       | include de-ch-g2.ctb
+       | include hyph_de_DE.dic
+       | include braille-patterns.cti
+
+de_DE  | #+locale:de_DE
+       | include de-de-g2.ctb
+       | include hyph_de_DE.dic
+       | include braille-patterns.cti
+
+dra    | #+locale:dra
+       | include spaces.ctb
+       | include dra.ctb
+       | include braille-patterns.cti
+
+el     | #+locale:el
+       | include gr-gr-g1.utb
+       | include braille-patterns.cti
+
+en     | #+locale:en
+       | include en-us-g2.ctb
+       | include hyph_en_US.dic
+       | include braille-patterns.cti
+
+en_AS  | #+locale:en_AS
+       | include UEBC-g2.ctb
+       | include hyph_en_US.dic
+       | include braille-patterns.cti
+
+en_CA  | #+locale:en_CA
+       | include en_CA.ctb
+       | include hyph_en_US.dic
+       | include braille-patterns.cti
+
+en_GB  | #+locale:en_GB
+       | include en-GB-g2.ctb
+       | include hyph_en_US.dic
+       | include braille-patterns.cti
+
+en_US  | #+locale:en_US
+       | include en-us-g2.ctb
+       | include hyph_en_US.dic
+       | include braille-patterns.cti
+
+eo     | #+locale:eo
+       | include eo-g1.ctb
+       | include braille-patterns.cti
+
+es     | #+locale:es
+       | include es-g1.ctb
+       | include hyph_es_ES.dic
+       | include braille-patterns.cti
+
+et     | #+locale:et
+       | include et.ctb
+       | include braille-patterns.cti
+
+fi     | #+locale:fi
+       | include fi-fi.ctb
+       | include braille-patterns.cti
+
+fr     | #+locale:fr
+       | include Fr-Fr-g2.ctb
+       | include hyph_fr_FR.dic
+       | include braille-patterns.cti
+
+fr_CA  | #+locale:fr_CA
+       | include Fr-Ca-g2.ctb
+       | include hyph_fr_FR.dic
+       | include braille-patterns.cti
+
+fr_FR  | #+locale:fr_FR
+       | include Fr-Fr-g2.ctb
+       | include hyph_fr_FR.dic
+       | include braille-patterns.cti
+
+ga     | #+locale:ga
+       | include ga-g2.ctb
+       | include braille-patterns.cti
+
+gd     | #+locale:gd
+       | include gd.ctb
+       | include braille-patterns.cti
+
+gez    | #+locale:gez
+       | include ethio-g1.ctb
+       | include braille-patterns.cti
+
+gon    | #+locale:gon
+       | include spaces.ctb
+       | include gon.ctb
+       | include braille-patterns.cti
+
+gu     | #+locale:gu
+       | include spaces.ctb
+       | include gu-in-g1.utb
+       | include braille-patterns.cti
+
+he     | #+locale:he
+       | include he.ctb
+       | include braille-patterns.cti
+
+hi     | #+locale:hi
+       | include hi-in-g1.utb
+       | include braille-patterns.cti
+
+hr     | #+locale:hr
+       | include hr.ctb
+       | include braille-patterns.cti
+
+hu     | #+locale:hu
+       | include hu-hu-g1.ctb
+       | include hyph_hu_HU.dic
+       | include braille-patterns.cti
+
+hy     | #+locale:hy
+       | include hy.ctb
+       | include braille-patterns.cti
+
+is     | #+locale:is
+       | include is-chardefs6.cti
+       | include braille-patterns.cti
+
+it     | #+locale:it
+       | include it-it-comp6.utb
+       | include hyph_it_IT.dic
+       | include braille-patterns.cti
+
+kha    | #+locale:kha
+       | include spaces.ctb
+       | include kh-in-g1.utb
+       | include braille-patterns.cti
+
+kn     | #+locale:kn
+       | include spaces.ctb
+       | include ka-in-g1.utb
+       | include braille-patterns.cti
+
+kok    | #+locale:kok
+       | include spaces.ctb
+       | include kok.ctb
+       | include braille-patterns.cti
+
+kru    | #+locale:kru
+       | include spaces.ctb
+       | include kru.ctb
+       | include braille-patterns.cti
+
+lt     | #+locale:lt
+       | include lt.ctb
+       | include braille-patterns.cti
+
+lv     | #+locale:lv
+       | include Lv-Lv-g1.utb
+       | include braille-patterns.cti
+
+ml     | #+locale:ml
+       | include spaces.ctb
+       | include ml-in-g1.utb
+       | include braille-patterns.cti
+
+mni    | #+locale:mni
+       | include spaces.ctb
+       | include mn-in-g1.utb
+       | include braille-patterns.cti
+
+mr     | #+locale:mr
+       | include spaces.ctb
+       | include mr-in-g1.utb
+       | include braille-patterns.cti
+
+mt     | #+locale:mt
+       | include mt.ctb
+       | include braille-patterns.cti
+
+mun    | #+locale:mun
+       | include spaces.ctb
+       | include mun.ctb
+       | include braille-patterns.cti
+
+mwr    | #+locale:mwr
+       | include spaces.ctb
+       | include mwr.ctb
+       | include braille-patterns.cti
+
+ne     | #+locale:ne
+       | include spaces.ctb
+       | include np-in-g1.utb
+       | include braille-patterns.cti
+
+nl     | #+locale:nl
+       | include nl-NL-g1.ctb
+       | include hyph_nl_NL.dic
+       | include braille-patterns.cti
+
+nl_BE  | #+locale:nl_BE
+       | include nl-BE-g1.ctb
+       | include hyph_nl_NL.dic
+       | include braille-patterns.cti
+
+nl_NL  | #+locale:nl_NL
+       | include nl-NL-g1.ctb
+       | include hyph_nl_NL.dic
+       | include braille-patterns.cti
+
+no     | #+locale:no
+       | include no-no-g3.ctb
+       | include hyph_nb_NO.dic
+       | include braille-patterns.cti
+
+or     | #+locale:or
+       | include spaces.ctb
+       | include or-in-g1.utb
+       | include braille-patterns.cti
+
+pa     | #+locale:pa
+       | include spaces.ctb
+       | include pu-in-g1.utb
+       | include braille-patterns.cti
+
+pi     | #+locale:pi
+       | include spaces.ctb
+       | include pi.ctb
+       | include braille-patterns.cti
+
+pl     | #+locale:pl
+       | include Pl-Pl-g1.utb
+       | include hyph_pl_PL.dic
+       | include braille-patterns.cti
+
+pt     | #+locale:pt
+       | include pt-pt-g2.ctb
+       | include hyph_pt_PT.dic
+       | include braille-patterns.cti
+
+ro     | #+locale:ro
+       | include ro.ctb
+       | include braille-patterns.cti
+
+ru     | #+locale:ru
+       | include ru-ru-g1.utb
+       | include braille-patterns.cti
+
+sa     | #+locale:sa
+       | include spaces.ctb
+       | include sa-in-g1.utb
+       | include braille-patterns.cti
+
+sd     | #+locale:sd
+       | include spaces.ctb
+       | include si-in-g1.utb
+       | include braille-patterns.cti
+
+sk     | #+locale:sk
+       | include sk-sk-g1.utb
+       | include braille-patterns.cti
+
+sl     | #+locale:sl
+       | include sl-si-g1.utb
+       | include braille-patterns.cti
+
+sr     | #+locale:sr
+       | include sr-g1.ctb
+       | include braille-patterns.cti
+
+sv     | #+locale:sv
+       | include Se-Se-g1.utb
+       | include braille-patterns.cti
+
+ta     | #+locale:ta
+       | include spaces.ctb
+       | include ta.ctb
+       | include braille-patterns.cti
+
+te     | #+locale:te
+       | include spaces.ctb
+       | include te-in-g1.utb
+       | include braille-patterns.cti
+
+tr     | #+locale:tr
+       | include tr.ctb
+       | include braille-patterns.cti
+
+vi     | #+locale:vi
+       | include vi.ctb
+       | include braille-patterns.cti
+
+zh_HK  | #+locale:zh_HK
+       | include zh-hk.ctb
+       | include braille-patterns.cti
+
+zh_TW  | #+locale:zh_TW
+       | include zh-tw.ctb
+       | include braille-patterns.cti
+
