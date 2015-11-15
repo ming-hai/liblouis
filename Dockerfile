@@ -11,7 +11,6 @@ ADD . /tmp/liblouis
 WORKDIR /tmp/liblouis
 RUN ./autogen.sh
 RUN ./configure --enable-ucs4
-# RUN make clean
 RUN make
 RUN make install
 RUN ldconfig

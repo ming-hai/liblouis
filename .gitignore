@@ -1,12 +1,8 @@
-.libs
-.deps
-*.o
-*.lo
-*.la
-*.pyc
 *~
-Makefile
-Makefile.in
+.DS_Store
+
+# for .dockerignore
+/.git
 
 # tag files
 TAGS
@@ -16,6 +12,8 @@ TAGS
 /GTAGS
 
 # /
+/Makefile
+/Makefile.in
 /configure
 /liblouis.pc
 /config.log
@@ -50,13 +48,12 @@ TAGS
 /build-aux/test-driver
 /build-aux/texinfo.tex
 
-# /build-aux/snippet/
-/build-aux/snippet/
-
 # /contrib/
 /contrib/liblouis.elc
 
 # /doc/
+/doc/Makefile
+/doc/Makefile.in
 /doc/mdate-sh
 /doc/texinfo.tex
 /doc/version.texi
@@ -81,6 +78,13 @@ TAGS
 /doc/liblouis.t2p/
 
 # /gnulib/
+/gnulib/.libs
+/gnulib/.deps
+/gnulib/*.o
+/gnulib/*.lo
+/gnulib/*.la
+/gnulib/Makefile
+/gnulib/Makefile.in
 /gnulib/arg-nonnull.h
 /gnulib/c++defs.h
 /gnulib/m4/absolute-header.m4
@@ -92,12 +96,21 @@ TAGS
 /gnulib/warn-on-use.h
 
 # /liblouis/
+/liblouis/.libs
+/liblouis/.deps
+/liblouis/*.o
+/liblouis/*.lo
+/liblouis/*.la
+/liblouis/Makefile
+/liblouis/Makefile.in
 /liblouis/stamp-h1
 /liblouis/config.h.in
 /liblouis/config.h
 /liblouis/liblouis.h
 
 # /m4/
+/m4/Makefile
+/m4/Makefile.in
 /m4/libtool.m4
 /m4/ltoptions.m4
 /m4/ltsugar.m4
@@ -105,6 +118,8 @@ TAGS
 /m4/lt~obsolete.m4
 
 # /man/
+/man/Makefile
+/man/Makefile.in
 /man/lou_allround.1
 /man/lou_checkhyphens.1
 /man/lou_checktable.1
@@ -113,15 +128,29 @@ TAGS
 /man/lou_translate.1
 
 # /python/
+/python/Makefile
+/python/Makefile.in
 /python/build
 
 # /python/louis/
+/python/louis/Makefile
+/python/louis/Makefile.in
 /python/louis/__init__.py
+/python/louis/*.pyc
+
+# /tables
+/tables/Makefile
+/tables/Makefile.in
 
 # /tests/
+/tests/.libs
+/tests/.deps
+/tests/*.o
 /tests/*.exe
 /tests/*.log
 /tests/*.trs
+/tests/Makefile
+/tests/Makefile.in
 /tests/backtranslate
 /tests/backtranslate_with_letsign
 /tests/capitalized_with_sentance
@@ -161,6 +190,7 @@ TAGS
 # /tests/harness/
 /tests/harness/Makefile.in
 /tests/harness/Makefile
+/tests/harness/*.pyc
 
 # /tests/harnessSources/
 /tests/harnessSources/Makefile.in
@@ -169,12 +199,25 @@ TAGS
 # /tests/tables/
 /tests/tables/Makefile.in
 /tests/tables/Makefile
-
-# /tests/tables/moreTables/
 /tests/tables/moreTables/Makefile.in
 /tests/tables/moreTables/Makefile
+/tests/tables/resolve_table/Makefile
+/tests/tables/resolve_table/Makefile.in
+/tests/tables/resolve_table/dir_1/Makefile
+/tests/tables/resolve_table/dir_1/Makefile.in
+/tests/tables/resolve_table/dir_2/Makefile
+/tests/tables/resolve_table/dir_2/Makefile.in
+/tests/tables/resolve_table/dir_1/dir_1.1/Makefile
+/tests/tables/resolve_table/dir_1/dir_1.1/Makefile.in
+/tests/tablesWithMetadata/Makefile
+/tests/tablesWithMetadata/Makefile.in
 
 # /tools/
+/tools/.libs
+/tools/.deps
+/tools/*.o
+/tools/Makefile
+/tools/Makefile.in
 /tools/lou_allround
 /tools/lou_checkhyphens
 /tools/lou_checktable
@@ -184,10 +227,26 @@ TAGS
 /tools/*.exe
 
 # /tools/gnulib
+/tools/gnulib/.libs
+/tools/gnulib/.deps
+/tools/gnulib/*.o
+/tools/gnulib/*.lo
+/tools/gnulib/*.la
+/tools/gnulib/Makefile
+/tools/gnulib/Makefile.in
 /tools/gnulib/arg-nonnull.h
 /tools/gnulib/c++defs.h
+/tools/gnulib/getopt.h
 /tools/gnulib/stddef.h
 /tools/gnulib/stdlib.h
 /tools/gnulib/sys/
 /tools/gnulib/unistd.h
 /tools/gnulib/warn-on-use.h
+
+# /windows
+/windows/Makefile
+/windows/Makefile.in
+
+# /windows/include
+/windows/include/Makefile
+/windows/include/Makefile.in
