@@ -224,6 +224,7 @@ TAGS
 /tools/lou_debug
 /tools/lou_trace
 /tools/lou_translate
+/tools/lou_runtest
 /tools/*.exe
 
 # /tools/gnulib
