@@ -1,4 +1,4 @@
-tables: [nl-BE.dis, nl-BE-g1.ctb]
+tables: [../tables/nl-BE.dis, ../tables/nl-BE-g1.ctb]
 tests:
   - [a ä â à á, 'a ` 1 { {']
   - [b, b]
