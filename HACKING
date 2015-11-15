@@ -231,25 +231,17 @@ Finally look at the call profile:
 
   $ libtool --mode=execute gprof ./tools/lou_translate gmon.out
 
-** How to build for win32
+** How to build for Windows
 See the README.windows file and the windows subdirectory.
 
 *** How to cross-compile for Windows
-To compile for win32, use the MinGW win32 cross-compiler as shown
-below. Use the prefix option to install the binaries to a temporary
-place where you can create a zip file.
+To compile for win32 using the MinGW cross-compiler, run make distwin32. This will produce a ZIP
+file called liblouis-<version>-win32.zip.
 
-  ./configure --build i686-pc-linux-gnu --host i586-mingw32msvc --prefix=/tmp/liblouis-mingw32msvc 
-  make
-  make install
-  zip -r liblouis-mingw32msvc.zip /tmp/liblouis-mingw32msvc
+To compile for win64 using the MinGW-w64 cross-compiler, run make distwin64. This will produce a ZIP
+file called liblouis-<version>-win64.zip.
 
-To compile for win64, use the MinGW-w64 cross-compiler:
-
-  ./configure --host x86_64-w64-mingw32 --prefix=/tmp/liblouis-w64-mingw32
-  make
-  make install
-  zip -r liblouis-w64-mingw32.zip /tmp/liblouis-w64-mingw32
+Docker will be used if the right cross-compiler is not installed.
 
 *** TODO How to build for Windows using Cygwin
 (possibly use a Vagrantfile as demonstration + explain that Cygwin
